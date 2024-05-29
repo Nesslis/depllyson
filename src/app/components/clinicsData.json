@@ -1,0 +1,115 @@
+[
+    {
+      "photo": "./images/download (1).jpg",
+      "name": "ABC Clinic",
+      "speciality": "Dermatoloji",
+      "location": "İstanbul, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/download (2).jpg",
+      "name": "XYZ Clinic",
+      "speciality": "Diş Hekimliği",
+      "location": "Ankara, Türkiye",
+      "reviews": "★★★★★"
+    },
+    {
+      "photo": "./images/download (3).jpg",
+      "name": "PQR Clinic",
+      "speciality": "Göz Hastalıkları",
+      "location": "İzmir, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/download.jpg",
+      "name": "LMN Clinic",
+      "speciality": "Ortopedi",
+      "location": "Antalya, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/images (1).jpg",
+      "name": "EFG Clinic",
+      "speciality": "Pediatri",
+      "location": "Muğla, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/images (2).jpg",
+      "name": "RST Clinic",
+      "speciality": "Kardiyoloji",
+      "location": "Bursa, Türkiye",
+      "reviews": "★★★★★"
+    },
+    {
+      "photo": "./images/images (3).jpg",
+      "name": "OPQ Clinic",
+      "speciality": "Nöroloji",
+      "location": "Trabzon, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/images.jpg",
+      "name": "JKL Clinic",
+      "speciality": "Jinekoloji",
+      "location": "Adana, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/download (1).jpg",
+        "name": "GHI Clinic",
+      "speciality": "Endokrinoloji",
+      "location": "Bolu, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/download (2).jpg",
+        "name": "MNO Clinic",
+      "speciality": "Üroloji",
+      "location": "Samsun, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/download (3).jpg",
+        "name": "UVW Clinic",
+      "speciality": "Onkoloji",
+      "location": "Kayseri, Türkiye",
+      "reviews": "★★★★★"
+    },
+    {
+      "photo": "./images/download.jpg",
+      "name": "HIJ Clinic",
+      "speciality": "Romatoloji",
+      "location": "Denizli, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+      "photo": "./images/images (1).jpg",
+      "name": "IJK Clinic",
+      "speciality": "Alerji ve İmmünoloji",
+      "location": "Konya, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/images (2).jpg",
+        "name": "LMN Clinic",
+      "speciality": "Gastroenteroloji",
+      "location": "Eskişehir, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/images (3).jpg",
+        "name": "NOP Clinic",
+      "speciality": "Diş Hekimliği",
+      "location": "Mersin, Türkiye",
+      "reviews": "★★★★☆"
+    },
+    {
+        "photo": "./images/images.jpg",
+        "name": "HT Clinic",
+      "speciality": "İç Hastalıkları",
+      "location": "İzmir, Türkiye",
+      "reviews": "★★☆☆☆"
+    }
+  ]
+  

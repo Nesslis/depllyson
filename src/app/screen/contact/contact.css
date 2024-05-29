@@ -1,0 +1,108 @@
+.contactPage {
+    background-image: url('/public/images/background-photos/contact.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+.contact-container {
+    position: relative;
+    max-width: 650px;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 83%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  .contact-content {
+    position: relative;
+    z-index: 1; 
+  }
+  .contact-content h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #fff, #8aebfc, #205a84, #153854);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-content p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-group {
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 30px;
+    flex-direction: column;
+  }
+  
+  .contact-form-group input {
+    width: 80%;
+    align-self: center;
+    padding: 8px;
+    border: none; /* Remove border */
+  border-bottom: 1px solid #3a5a5e; /* Add bottom border */
+  border-radius: 7px;
+  background-color: transparent; /* Make background transparent */
+  color: #fff;
+  outline: none;
+  }
+  .contact-form-group input::placeholder {
+    color: #2d4245; /* Placeholder color */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #9d9393;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(226, 221, 221, 0.8); 
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  .contact-button-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  button[type="contact-submit"] {
+    padding: 10px 30px;
+    background-color: #225b80;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="contact-submit"]:hover {
+    background-color: #13abc2;
+  }
+  

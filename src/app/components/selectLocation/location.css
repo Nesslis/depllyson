@@ -1,0 +1,113 @@
+/* SelectLocation.css */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 550px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the bar */
+    margin-top: 195px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .location-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .location-icon {
+    margin-right: 8px;
+    color: #888;
+  }
+  
+  .location-label {
+    margin-right: 10px;
+    font-weight: 600;
+    width: 110px;
+  }
+  .explanation {
+    margin-left: 15px;
+    width: 250px;
+    margin-right: 4px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown {
+    position: absolute;
+    top: calc(100%); /* Position the dropdown just below the location info */
+    left: 220px;
+    z-index: 1; /* Ensure the dropdown appears above other content */
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border-radius */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box-shadow for a dropdown effect */
+  }
+  
+  .dropdown ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .dropdown ul li {
+    padding: 8px 12px; /* Add padding to each dropdown item */
+  }
+  
+  .dropdown ul li:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+  }
+  
+  .select-wrapper select {
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+  }
+  
+  .location-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #192f36;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 2px;
+    top: 0;
+  }
+  .location-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .location-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .location-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .location-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  

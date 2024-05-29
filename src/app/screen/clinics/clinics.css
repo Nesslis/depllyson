@@ -1,0 +1,110 @@
+.clinics-page {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #deeff0;
+  }
+  .filter-button {
+    border-radius: 20px;
+    background-color: #13abc2;
+  color: #ffffff !important; 
+  font-weight: 300;
+  padding: 3px 40px; 
+  border: none;
+  border-radius: 15px; 
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  }
+  .filter-button:hover {
+    background-color: #206f74; 
+  }
+  .clinics-section {
+    flex:2;
+    padding: 20px;
+  }
+
+  .clinics-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .clinic-card {
+    width: 37%; 
+    height: 25%;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(232, 238, 239, 0.156);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; 
+  }
+  
+  .clinic-card img {
+    width: 150px; 
+    height: 300px;
+    margin-right: 25px; /* space between image and details */
+    margin-left: 10px;
+  }
+  
+  .clinic-details {
+    flex: 1; /* details fill the remaining space */
+  }
+  
+  .clinic-details h2 {
+    margin-top: 0; 
+  }
+  
+  .pagination {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    color: rgb(255, 255, 255);
+    background-color: #50928d;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    margin: 3px;
+  }
+  .pagination button.active {
+    background-color: #4c65af;
+    color: white;
+  }
+  
+  .pagination button:hover:not(.active) {background-color: #94bee5;}
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-dropdowns {
+    display: flex;
+    gap: 35px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.filter-dropdowns select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color:whitesmoke;
+}
+.searchFilter {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color:whitesmoke;
+}
