@@ -18,7 +18,7 @@ const MapPage: React.FC = () => {
   useEffect(() => {
     // Load the Google Maps JavaScript API
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAtcTm3CJHafsnCcowGCJkSTNZ-v-SUcl4&libraries=places`;
+    script.src = `YOUR_API_KEY&libraries=places`;
     script.async = true;
     script.onload = initializeMap;
     document.body.appendChild(script);
